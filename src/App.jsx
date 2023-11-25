@@ -16,9 +16,11 @@ function App() {
     createRoutesFromElements(
       <Route path = "/" element = {<RootLayout/>}>
         <Route index element = {<Notes/>}/>
-        <Route path = "reminders" element = {<Reminders/>}/>
-        <Route path = "archive" element = {<Archive/>}/>
-        <Route path = "trash" element = {<Trash/>}/>
+        {/* <Route path = ""> */}
+          <Route path = "reminders" element = {<Reminders/>}/>
+          <Route path = "archive" element = {<Archive/>}/>
+          <Route path = "trash" element = {<Trash/>}/>
+        {/* </Route> */}
       </Route>
     )
   )
