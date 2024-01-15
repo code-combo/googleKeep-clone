@@ -5,22 +5,24 @@ import "./RootLayout.css"
 
 // Components
 import Sidenav from '../components/sidenav/Sidenav'
-import Navbar from '../components/navbar/Navbar'
+import Searchbar from '../components/navbar/Searchbar'
+import Footer from '../components/footer/Footer'
 
 export default function RootLayout() {
   return (
     <div className='root-layout'>
-      <header>
-        <Navbar/>
-      </header>
+        <Searchbar/>
       <main>
         <section> 
           <Sidenav/>
         </section>
-        <section className='alaye-section'>
+        <section className='outlet child-comp are-rendered'>
           <Outlet/>
         </section>
       </main>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   )
 }

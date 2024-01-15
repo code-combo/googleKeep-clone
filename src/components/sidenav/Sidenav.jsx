@@ -8,8 +8,11 @@ export default function Sidenav() {
           <li>
             <Link to = "/">Notes</Link>
             <Link to = "reminders">Reminders</Link>
-            <Link to = "/archive">Archives</Link>
-            <Link to = "/trash">Trash</Link>
+            <Link to = "#">Create new label</Link>
+            <Link to = "archive">Archives</Link>
+            <Link to = "trash">Trash</Link>
+            <Link to = "#">Settings</Link>
+            <Link to = "#">Keyboard shortcut</Link>
           </li>
         </ul>
       </nav>
