@@ -1,0 +1,19 @@
+{
+    "notes": [
+        {
+            "id": "1",
+            "title": "SEN208 Assignment",
+            "note": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, hic laboriosam quidem quis ea id quisquam dignissimos reprehenderit"
+        },
+        {
+            "id": "2",
+            "title": "Schedule for the day",
+            "note": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, hic laboriosam quidem quis ea id quisquam dignissimos reprehenderit"
+        },
+        {
+            "id": "3",
+            "title": "Movies to watch",
+            "note": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, hic laboriosam quidem quis ea id quisquam dignissimos reprehenderit"
+        }
+    ] 
+}
