@@ -5,12 +5,12 @@ import "./RootLayout.css"
 
 // Components
 import Sidenav from '../components/sidenav/Sidenav'
-import Searchbar from '../components/navbar/Searchbar'
+import Searchbar from '../components/searchbar/Searchbar'
 import Footer from '../components/footer/Footer'
 
 export default function RootLayout() {
   return (
-    <div className='root-layout'>
+    <div className='root-layout font-robotoSlab'>
         <Searchbar/>
       <main>
         <section> 

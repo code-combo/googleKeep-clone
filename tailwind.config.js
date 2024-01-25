@@ -11,7 +11,11 @@ export default {
       lg: "976px",
       xl: "1440px"
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        robotoSlab: ["Open Sans", "sans-serif"]
+      }
+    },
   },
   plugins: [],
 }
